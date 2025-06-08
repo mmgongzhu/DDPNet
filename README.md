@@ -10,11 +10,11 @@ pip install opencv-python==4.11.0.86
 pip install mmsegmentation==1.2.2
 ```
 
-DDPNet is based on [mmsegmentation]([open-mmlab/mmsegmentation: OpenMMLab Semantic Segmentation Toolbox and Benchmark.](https://github.com/open-mmlab/mmsegmentation/tree/main)) and [CGRSeg]([nizhenliang/CGRSeg: [ECCV 2024\] Context-Guided Spatial Feature Reconstruction for Efficient Semantic Segmentation](https://github.com/nizhenliang/CGRSeg)),The specific method for setting up the environment can be found in the official [mmsegmentation documentation]([开始：安装和运行 MMSeg — MMSegmentation 1.2.2 文档](https://mmsegmentation.readthedocs.io/zh-cn/latest/get_started.html)).
+DDPNet is based on [mmsegmentation](https://github.com/open-mmlab/mmsegmentation/tree/main) and [CGRSeg](https://github.com/nizhenliang/CGRSeg),The specific method for setting up the environment can be found in the official [mmsegmentation documentation](https://mmsegmentation.readthedocs.io/zh-cn/latest/get_started.html).
 
 # 2.Checkpoint
 
-- The backbone network uses [efficientformerV2]([snap-research/EfficientFormer: EfficientFormerV2 [ICCV 2023\] & EfficientFormer [NeurIPs 2022]](https://github.com/snap-research/EfficientFormer)), and the pre-training can be obtained directly from the official
+- The backbone network uses [efficientformerV2](https://github.com/snap-research/EfficientFormer), and the pre-training can be obtained directly from the official
 - The weights on **ADE20K** of our proposed DDPNet  are obtained by clicking [here](https://pan.quark.cn/s/145849808e6a)
 - The weights on **PASCAL-CONTEXT** of our proposed DDPNet  are obtained by clicking [here](https://pan.quark.cn/s/145849808e6a)
 
